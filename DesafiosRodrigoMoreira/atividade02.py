@@ -1,3 +1,3 @@
-n1 = int(input("Digite um numero: "))
-n2 = int(input("Digite outro numero: "))
-print(f"A soma entre {n1} e {n2} é {n1+n2}")
+filme = input("Qual nome do seu filme favorito? ")
+anol = int(input(f"Em qual ano {filme} foi lançado? "))
+print(f"O seu filme favorito é {filme} e ele foi lançado no ano de {anol}.")

@@ -1,3 +1,3 @@
-temp = float(input("Digite a temperatura atual em °C: "))
-fah = (temp * 9/5) + 32
-print(f"{temp}°C convertido em Fahrenheit fica em {fah}°F")
+for i in range(1,11):
+    if i % 2 == 0:
+        print(i)
