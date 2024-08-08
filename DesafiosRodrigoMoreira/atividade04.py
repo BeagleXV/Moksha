@@ -1,3 +1,7 @@
+"""Escreva um programa que peça a temperatura atual e diga se está quente (acima de
+30°C), frio (abaixo de 15°C) ou agradável (entre 15°C e 30°C)"""
+
+
 temp = int(input("Digite a temperatura atual (em °C): "))
 
 if temp > 30:
