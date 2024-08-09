@@ -1,17 +1,12 @@
-def bissexto():    
-    ano = int(input("Digite um ano: "))
-    if ano % 4 == 0:
-        if ano % 100 == 0:
-            if ano % 400 == 0:
-                print(f"O ano de {ano} é bissexto.")
-            else:
-                print(f"O ano de {ano} não é bissexto.")
-        else:
-            print(f"O ano de {ano} é bissexto.")
-    else:
-        print(f"O ano de {ano} não é bissexto.")
+#Escreva uma função que receba um número e retorne se ele é par ou ímpar.
 
-bissexto()
-bissexto()
-bissexto()
-bissexto()
+def imparpar():    
+    num = int(input("Digite um numero para saber se é par ou impar: "))
+    if num % 2 == 0:
+        num = "Par"
+    else:
+        num = "impar"
+    return num
+
+print(imparpar())
+

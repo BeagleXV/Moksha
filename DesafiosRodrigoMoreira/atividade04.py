@@ -2,11 +2,11 @@
 30°C), frio (abaixo de 15°C) ou agradável (entre 15°C e 30°C)"""
 
 
-temp = int(input("Digite a temperatura atual (em °C): "))
+temperatura = int(input("Digite a temperatura atual (em °C): "))
 
-if temp > 30:
-    print(f"{temp}°C está quente demais! Beba bastante água. ")
-elif 15 <= temp <= 30:
-    print(f"{temp}°C está uma tempera muito agradavel!")
+if temperatura > 30:
+    print(f"{temperatura}°C está quente demais! Beba bastante água. ")
+elif 15 <= temperatura <= 30:
+    print(f"{temperatura}°C está uma tempera muito agradavel!")
 else:
-    print(f"{temp}°C está muito frio! Melhor por um casaco.")
+    print(f"{temperatura}°C está muito frio! Melhor por um casaco.")
