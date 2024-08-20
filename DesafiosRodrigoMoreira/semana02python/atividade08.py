@@ -1,16 +1,12 @@
-# Escreva um programa que mostre os primeiros n números da sequência de Fibonacci, onde n é informado pelo usuário.
+#Escreva uma função que receba um número e retorne se ele é par ou ímpar.
 
-print("Quantos números da sequência de Fibonacci vc deseja mostrar?")
+def imparpar():    
+    num = int(input("Digite um numero para saber se é par ou impar: "))
+    if num % 2 == 0:
+        num = "Par"
+    else:
+        num = "impar"
+    return num
 
-numero = int(input("Quantos números você quer mostrar? "))
-termo1 = 0
-termo2 = 1
-print(f"{termo1} {termo2}",end= " ")
-contador = 3
-while contador <= numero:
-    termo3 = termo1 + termo2
-    print(f"{termo3}", end= " ")
-    termo1 = termo2
-    termo2 = termo3
-    contador += 1
-print("Fim")
+print(imparpar())
+

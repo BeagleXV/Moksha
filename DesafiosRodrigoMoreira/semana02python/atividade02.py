@@ -1,6 +1,6 @@
-#Crie um programa que converta uma temperatura dada em Celsius para Fahrenheit e Kelvin.
+"""Crie um programa que pergunte ao usuário seu filme favorito e o ano em que foi
+lançado, e depois imprima uma mensagem usando essas informações."""
 
-celsius = float(input("Digite a temperatura (atual em °C): "))
-fahrenheit = (celsius * 9/5) + 32
-kelvin = celsius + 273.15
-print(f"A temperatura em {celsius:.1f}°C corresponde a {fahrenheit:.1f}°F e {kelvin:.1f}K")
+filme = input("Qual nome do seu filme favorito? ")
+ano_atual = int(input(f"Em qual ano {filme} foi lançado? "))
+print(f"O seu filme favorito é {filme} e ele foi lançado no ano de {ano_atual}.")

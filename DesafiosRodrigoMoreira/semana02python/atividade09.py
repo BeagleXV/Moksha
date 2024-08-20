@@ -1,18 +1,14 @@
-# Crie um programa que leia três números diferentes e os imprima em ordem crescente.
+"""Escreva um programa que peça uma frase ao usuário e conte quantas vezes uma letra
+específica aparece."""
 
-numeros = []
-for posicao in range(1,4):
-    numero = int(input(f"Digite o {posicao}° numero: "))
-    numeros.append(numero)
+print("Digite uma frase e uma letra para saber quantas vezes essa letra aparece na frase.")
 
-if numeros[0] > numeros[1]:
-    numeros[0], numeros[1] = numeros[1], numeros[0]
-if numeros[0] > numeros[2]:
-    numeros[0], numeros[2] = numeros[2], numeros[0]
-if numeros[1] > numeros[2]:
-    numeros[1], numeros[2] = numeros[2], numeros[1]
+frase_usuario = input("Digite uma frase: ").lower()
+escolha_de_letra = input("Digite uma letra: ").strip().lower()
+contador = 0
 
-print("Os números digitados na ordem crescente: ", end="")
-for numero in numeros:
-    print(numero, end= " ")
-print("")    
+for letra in frase_usuario:
+    if letra.lower() == escolha_de_letra:
+        contador+=1
+
+print(f"Na sua frase '{frase_usuario}' existem {contador} letras {escolha_de_letra}")

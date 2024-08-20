@@ -1,11 +1,12 @@
-# Crie um programa que verifique se uma palavra ou frase é um palíndromo.
+"""Escreva um programa que peça a temperatura atual e diga se está quente (acima de
+30°C), frio (abaixo de 15°C) ou agradável (entre 15°C e 30°C)"""
 
-print("Escreva uma frase para saber se é um palíndromo. Digite 'sair' para sair do programa.")
-while True:
-    frase = input("Escreva uma frase: ").replace(" ","").lower()
-    if frase == "sair":
-        break
-    if frase[::-1] == frase:
-        print(f"A frase '{frase}' é um palíndromo.")
-    else:
-        print(f"A frase '{frase}' NÃO é um palíndromo.")
+
+temperatura = int(input("Digite a temperatura atual (em °C): "))
+
+if temperatura > 30:
+    print(f"{temperatura}°C está quente demais! Beba bastante água. ")
+elif 15 <= temperatura <= 30:
+    print(f"{temperatura}°C está uma tempera muito agradavel!")
+else:
+    print(f"{temperatura}°C está muito frio! Melhor por um casaco.")

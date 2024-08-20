@@ -1,14 +1,15 @@
-"""Desenvolva um programa que calcule a média de várias notas inseridas pelo usuário. 
-O programa deve parar de pedir notas quando o usuário digitar -1."""
+"""Crie uma lista de compras que permita ao usuário adicionar itens e,
+em seguida, imprimir a lista completa."""
 
-soma = 0
-contador = 0
-
+lista = []
+print("""Lista de compras:\nDigite os itens da sua lista de compras, escreva 'sair', e eles serão inseridos no programa.""")
 while True:
-    notas = float(input(f"Digite o valor da {contador+1}° nota: "))
-    if notas == -1:
-        break
-    soma += notas
-    contador += 1
-media = soma / contador
-print(f"A média das notas inseridas é de {media:.1f}")
+    compra = input("Digite o nome do item: ").lower()
+    if compra == "sair":
+            break
+    lista.append(compra)
+for i in lista:
+    print("-",i)
+
+
+
