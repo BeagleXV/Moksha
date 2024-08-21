@@ -11,6 +11,6 @@ while True:
         break
     lista_numeros.append(numero)
 media = soma / contador
-print(f"O maior número é {max(lista_numeros)}, o menor número é {min(lista_numeros)} e a média entre os numeros é: {media}")
+print(f"O maior número é {max(lista_numeros)}, o menor número é {min(lista_numeros)} e a média entre os numeros é: {media:.2f}")
 
 
