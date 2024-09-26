@@ -18,9 +18,9 @@ const carro = {
 function carros(){
 	Object.keys(carro).forEach(key => console.log(`${key}:${carro[key]}`));
 	return true;
-}
+};
 carros();
-carro.cor = prompt("Digite a nova cor do carro: ")
+carro.cor = prompt("Digite a nova cor do carro: ");
 carros();
 const {marca, modelo} = carro;
-console.log(`Marca:${marca}\nModelo:${modelo}`)
+console.log(`Marca:${marca}\nModelo:${modelo}`);
