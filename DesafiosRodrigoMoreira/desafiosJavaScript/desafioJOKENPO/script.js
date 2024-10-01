@@ -1,3 +1,4 @@
+// Função para determinar o nome do usuário no jogo
 function nomeUsuario(){
     let nome = prompt("Digite seu nome de usuário: ");
     document.getElementById("user-label").firstChild.textContent = nome;
