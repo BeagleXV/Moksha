@@ -1,6 +1,7 @@
 //1. Imprima 'Hello, World!' no console.
 
 function imprimir(){
-    return console.log("Hello, World!")
+    return ("Hello, World!")
 }
-imprimir();
+
+console.log(imprimir());
