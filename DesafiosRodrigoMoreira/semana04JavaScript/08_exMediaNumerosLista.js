@@ -9,8 +9,8 @@ function mediaNumerosFor(numeros){
     return (soma / numeros.length).toFixed(2);
 
 }
-numeros = [3,7,11,15,6,55];
-console.log(mediaNumerosFor(numeros));
+
+console.log(mediaNumerosFor([3,7,11,15,6,55]));
  
 //Utilizando WHILE:
 function mediaNumerosWhile(numeros_){
@@ -22,5 +22,5 @@ function mediaNumerosWhile(numeros_){
     }
     return (soma / numeros_.length).toFixed(2);
 }
-numeros_ = [9,23,11,15,41,32];
-console.log(mediaNumerosWhile(numeros_));
+
+console.log(mediaNumerosWhile([9,23,11,15,41,32]));

@@ -5,6 +5,4 @@ function ordenaNumeros(numeros){
     return numeros;
 }
 
-const listaNumeros = [12,4,3,88,9,11,27,35];
-
-console.log(ordenaNumeros(listaNumeros));
+console.log(ordenaNumeros([12,4,3,88,9,11,27,35]));
