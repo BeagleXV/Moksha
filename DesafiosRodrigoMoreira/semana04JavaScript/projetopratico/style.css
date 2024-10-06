@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: radial-gradient(#E70880,#812676,#6A0347);
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: #fff;
+}
+
+p{
+    font-weight: bold;
+    font-size: larger;
+}
+
+form{
+    background-color: #fff;
+    padding: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+input,select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+select > #moeda{
+    max-width: 20%;
+}
+
+button{
+    background-color: #E70880;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c2076b;
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff
+}
